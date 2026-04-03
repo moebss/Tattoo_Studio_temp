@@ -9,11 +9,11 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <a href="#" className="inline-block mb-8">
               <span className="font-serif text-3xl tracking-wider text-light">
-                LOS<span className="text-gold">NACHOS</span>
+                IRON<span className="text-gold">INK</span>
               </span>
             </a>
             <p className="text-light/50 text-sm leading-relaxed mb-8">
-              Dein Studio für erstklassige Tattoos & Piercings in Kerpen-Horrem. Kunst, die bleibt.
+              Dein Studio für erstklassige Tattoos & Piercings in Berlin-Mitte. Kunst, die bleibt.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-light/50 hover:text-gold hover:border-gold transition-all duration-300">
@@ -31,15 +31,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-light/70 text-sm">
                 <MapPin size={18} className="text-gold shrink-0 mt-0.5" />
-                <span>Hauptstr. 158<br />50169 Kerpen (Horrem)<br />Deutschland</span>
+                <span>Mühlenstraße 42<br />10243 Berlin<br />Deutschland</span>
               </li>
               <li className="flex items-center gap-3 text-light/70 text-sm">
                 <Phone size={18} className="text-gold shrink-0" />
-                <a href="tel:+491632563075" className="hover:text-gold transition-colors">+49 163 256 30 75</a>
+                <a href="tel:+493012345678" className="hover:text-gold transition-colors">+49 30 12345678</a>
               </li>
               <li className="flex items-center gap-3 text-light/70 text-sm">
                 <Mail size={18} className="text-gold shrink-0" />
-                <a href="mailto:info@losnachos.de" className="hover:text-gold transition-colors">info@losnachos.de</a>
+                <a href="mailto:hello@ironink.de" className="hover:text-gold transition-colors">hello@ironink.de</a>
               </li>
             </ul>
           </div>
@@ -78,10 +78,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-light/40 text-xs uppercase tracking-widest">
-            &copy; {new Date().getFullYear()} Los Nachos Tattoo & Piercing. All rights reserved.
+            &copy; {new Date().getFullYear()} Iron Ink Tattoo & Piercing. All rights reserved.
           </p>
           <p className="text-light/40 text-xs uppercase tracking-widest">
-            Handcrafted with <span className="text-gold">♥</span> in Kerpen
+            Handcrafted with <span className="text-gold">♥</span> in Berlin
           </p>
         </div>
       </div>

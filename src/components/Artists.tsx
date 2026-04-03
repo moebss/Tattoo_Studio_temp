@@ -4,32 +4,32 @@ import { Instagram, ArrowUpRight } from 'lucide-react';
 export default function Artists() {
   const artists = [
     {
-      name: 'Gordian Linck',
+      name: 'Lukas Weber',
       role: 'Inhaber & Artist',
       specialties: ['Allrounder', 'Custom Designs'],
       image: 'https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=1000&auto=format&fit=crop',
-      instagram: '@losnachostattoo'
+      instagram: '@ironink_berlin'
     },
     {
-      name: 'Jochen',
+      name: 'Felix Becker',
       role: 'Artist',
       specialties: ['Old School', 'New School', 'Traditional'],
       image: 'https://images.unsplash.com/photo-1611558709798-e009c8fd7706?q=80&w=1000&auto=format&fit=crop',
-      instagram: '@losnachostattoo'
+      instagram: '@ironink_berlin'
     },
     {
-      name: 'Martin',
+      name: 'Jonas Schmidt',
       role: 'Artist',
       specialties: ['Black & Grey', 'Realistic', 'Surrealism'],
       image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1000&auto=format&fit=crop',
-      instagram: '@losnachostattoo'
+      instagram: '@ironink_berlin'
     },
     {
-      name: 'Louis',
+      name: 'Leon Krause',
       role: 'Artist',
       specialties: ['Lettering', 'Blackwork'],
-      image: 'https://images.unsplash.com/photo-1590246814883-578320dd229b?q=80&w=1000&auto=format&fit=crop',
-      instagram: '@losnachostattoo'
+      image: 'https://images.unsplash.com/photo-1558222218-b7b54eede3f3?q=80&w=1000&auto=format&fit=crop',
+      instagram: '@ironink_berlin'
     }
   ];
 

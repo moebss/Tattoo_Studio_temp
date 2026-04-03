@@ -21,7 +21,7 @@ export default function Hero() {
         </p>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-light leading-tight mb-8">
-          Los Nachos <br />
+          Iron Ink <br />
           <span className="italic text-white/80">Tattoo & Piercing</span>
         </h1>
 

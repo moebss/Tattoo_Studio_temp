@@ -29,7 +29,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 group">
           <span className="font-serif text-2xl tracking-wider text-light group-hover:text-gold transition-colors">
-            LOS<span className="text-gold">NACHOS</span>
+            IRON<span className="text-gold">INK</span>
           </span>
         </a>
 

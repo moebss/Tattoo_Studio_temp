@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Maximize2, X } from 'lucide-react';
 
 const tattoos = [
-  { id: 1, style: 'Realism', image: 'https://images.unsplash.com/photo-1568515045052-f9a854d70bfd?q=80&w=1000&auto=format&fit=crop' },
-  { id: 2, style: 'Fine Line', image: 'https://images.unsplash.com/photo-1590246814883-578320dd229b?q=80&w=1000&auto=format&fit=crop' },
+  { id: 1, style: 'Realism', image: '/Tattoostudio/images/realism-tattoo.png' },
+  { id: 2, style: 'Fine Line', image: '/Tattoostudio/images/fineline-tattoo.png' },
   { id: 3, style: 'Blackwork', image: 'https://images.unsplash.com/photo-1621252179027-94459d278660?q=80&w=1000&auto=format&fit=crop' },
   { id: 4, style: 'Traditional', image: 'https://images.unsplash.com/photo-1550537687-c91072c4792d?q=80&w=1000&auto=format&fit=crop' },
   { id: 5, style: 'Realism', image: 'https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?q=80&w=1000&auto=format&fit=crop' },
@@ -56,8 +56,8 @@ export default function Gallery() {
                 key={style}
                 onClick={() => setActiveFilter(style)}
                 className={`uppercase tracking-widest text-xs md:text-sm pb-2 border-b-2 transition-all duration-300 ${activeFilter === style
-                    ? 'border-gold text-gold'
-                    : 'border-transparent text-light/50 hover:text-light'
+                  ? 'border-gold text-gold'
+                  : 'border-transparent text-light/50 hover:text-light'
                   }`}
               >
                 {style}

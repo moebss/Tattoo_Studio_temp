@@ -59,7 +59,7 @@ export default function About() {
               Kunst, die unter die <br /> Haut geht.
             </h3>
             <p className="text-light/70 leading-relaxed mb-12 text-lg">
-              Willkommen bei Los Nachos. Seit über einem Jahrzehnt sind wir eure Adresse in Kerpen für erstklassige Tattoos und professionelles Piercing. In unserer entspannten und familiären Atmosphäre verwandeln wir eure Ideen in zeitlose Kunstwerke – mit höchstem Anspruch an Hygiene und Perfektion.
+              Willkommen bei Iron Ink. Seit über einem Jahrzehnt sind wir eure Adresse in Berlin für erstklassige Tattoos und professionelles Piercing. In unserer entspannten und familiären Atmosphäre verwandeln wir eure Ideen in zeitlose Kunstwerke – mit höchstem Anspruch an Hygiene und Perfektion.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-8">
